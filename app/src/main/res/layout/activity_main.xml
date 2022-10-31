@@ -4,10 +4,17 @@
     android:layout_height="match_parent"
     android:padding="@dimen/padding_regular">
 
+    <Button
+        android:id="@+id/goToWebLinksAndScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Links And Scroll View" />
+
     <TextView
         android:id="@+id/article_heading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/goToWebLinksAndScrollView"
         android:background="@color/colorPrimary"
         android:padding="@dimen/padding_regular"
         android:text="@string/article_title"
