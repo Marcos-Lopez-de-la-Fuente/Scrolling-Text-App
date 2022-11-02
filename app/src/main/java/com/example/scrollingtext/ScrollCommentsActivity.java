@@ -44,15 +44,12 @@ public class ScrollCommentsActivity extends AppCompatActivity {
         this.editArticle = findViewById(R.id.editArticle);
 
 
-
         if (savedInstanceState != null) {
             this.article.setText(savedInstanceState.getString("textArticle"));
             this.arrComments = savedInstanceState.getStringArrayList("arrComments");
 
             this.showComments();
         }
-
-
 
 
         this.goToAdditionalExercise.setOnClickListener(view ->
@@ -81,12 +78,8 @@ public class ScrollCommentsActivity extends AppCompatActivity {
         });
 
 
-
-
-
         this.initComment = false;
         this.addComment.setOnClickListener(view -> {
-
 
             if (!this.initComment) {
                 this.initComment = true;
@@ -109,7 +102,6 @@ public class ScrollCommentsActivity extends AppCompatActivity {
             }
         });
     }
-
 
 
     public void showComments() {
@@ -140,15 +132,10 @@ public class ScrollCommentsActivity extends AppCompatActivity {
     }
 
 
-
-
-
-
     @Override
     protected void onSaveInstanceState(Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
         savedInstanceState.putString("textArticle", String.valueOf(this.article.getText()));
         savedInstanceState.putStringArrayList("arrComments", this.arrComments);
-
     }
 }

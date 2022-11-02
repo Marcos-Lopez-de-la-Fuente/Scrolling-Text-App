@@ -22,13 +22,11 @@
         android:textColor="@android:color/white"
         android:textStyle="bold" />
 
-
     <ScrollView
         android:id="@+id/scroll_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/article_heading">
-
 
         <LinearLayout
             android:id="@+id/linear_layout_main"

@@ -31,7 +31,6 @@
         android:text="@string/article_subtitle"
         android:textAppearance="@android:style/TextAppearance" />
 
-
     <ScrollView
         android:id="@+id/scroll_article"
         android:layout_width="wrap_content"

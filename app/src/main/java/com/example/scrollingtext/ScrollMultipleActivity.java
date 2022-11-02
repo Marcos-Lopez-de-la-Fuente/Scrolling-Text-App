@@ -19,7 +19,5 @@ public class ScrollMultipleActivity extends AppCompatActivity {
         this.goToScrollComments.setOnClickListener(view ->
                 this.startActivity(new Intent(this, ScrollCommentsActivity.class))
         );
-
-
     }
 }
