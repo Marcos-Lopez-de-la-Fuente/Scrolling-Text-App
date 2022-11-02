@@ -32,9 +32,7 @@ The program will be divided into the following sections:
 
     *Most Activities do not have any additional Java code (just what is needed to move between activities with the buttons).*
 
-    -   **`ScrollCommentsActivity.java`**
-
-        -   Single Activity with a considerable change in its code. In the code we will have to add Listeners in the edit and add comments buttons, we will also have to show the comments through a list of these. If the screen is rotated horizontally, it will be necessary to save the changes.
+    -   **`ScrollCommentsActivity.java`**: Single Activity with a considerable change in its code. In the code we will have to add Listeners in the edit and add comments buttons, we will also have to show the comments through a list of these. If the screen is rotated horizontally, it will be necessary to save the changes.
 
 -   ### **XML files** (Application Frontend):
 
